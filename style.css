@@ -1,0 +1,16 @@
+#containeer{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+}
+
+#containeer>img{
+    width: 250px;
+    height: 300px;
+    margin: 2%;
+}
+
+#containeer>img:hover{
+    transform: scale(1.1);
+}
